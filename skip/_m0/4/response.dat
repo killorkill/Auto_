@@ -1,0 +1,49 @@
+HTTP/1.1 200 Partial Content
+Date: Tue, 16 Apr 2024 09:29:24 GMT
+Server: Apache/2.2.8 (Win32) PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Content-Range: bytes 0-1379/1380
+Content-Length: 1380
+Keep-Alive: timeout=5, max=148
+Connection: Keep-Alive
+Content-Type: text/html
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Invicti Test Web Site -  PHP</title>
+<link href="/style.css" rel="stylesheet" type="text/css" media="screen" />
+</head><body>
+<div id="wrapper">
+        
+	<div id="menu">
+		<ul>
+			<li><a href="/process.php?file=Generics/index.nsp">Home</a></li>
+			<li><a href="/hello.php?name=Visitor">Hello</a></li>
+			<li><a href="/products.php?pro=url">Products</a></li>
+			<li><a href="/process.php?file=Generics/about.nsp">About</a></li>
+			<li><a href="/process.php?file=Generics/contact.nsp">Contact</a></li>
+			<li><a href="/auth/">Login</a></li>
+		</ul>
+	</div>
+	<!-- end #menu -->
+	<div id="header">
+
+	</div>
+	<!-- end #header -->	    	<!-- process.php load pages from path of the website. -->
+	<!-- FIXME: File / directory permissions -->
+	<!-- end #page -->
+</div>
+
+<div id="resetbar">
+	This website is automatically reset at every midnight (00:00 - UTC).
+</div>
+<div id="footer">
+		<p>Copyright (c) 2010 testinvicti.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+	</div>	<!-- end #footer -->
+</body>
+</html>

@@ -1,0 +1,12 @@
+POST /auth/control.php HTTP/1.1
+Host: 107.20.213.223
+Accept-Encoding: gzip
+Connection: keep-alive
+User-Agent: Mozilla/5.0 SF/2.10b
+Range: bytes=0-399999
+Referer: http://107.20.213.223/
+Cookie: security=low; PHPSESSID=49e753d1a4e6699dfe66b18600593001
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 42
+
+username=Smith&password=skipfish&token=510

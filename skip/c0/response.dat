@@ -1,0 +1,19 @@
+HTTP/1.1 200 Partial Content
+Date: Tue, 16 Apr 2024 09:29:23 GMT
+Server: Apache/2.2.8 (Win32) PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Content-Range: bytes 0-135/136
+Content-Length: 136
+Keep-Alive: timeout=5, max=150
+Connection: Keep-Alive
+Content-Type: text/html
+
+<html>
+<HEAD>
+<SCRIPT language="JavaScript">
+<!--
+window.location="process.php?file=Generics/index.nsp";
+//-->
+</SCRIPT>
+</HEAD>
+</html>

@@ -1,0 +1,47 @@
+HTTP/1.1 302 Found
+Date: Tue, 16 Apr 2024 09:31:06 GMT
+Server: Apache/2.2.8 (Win32) PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Location: logout.php
+Content-Length: 1131
+Keep-Alive: timeout=5, max=72
+Connection: Keep-Alive
+Content-Type: text/html
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Invicti Test Web Site -  PHP</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head><body>
+<div id="wrapper">
+        
+	<div id="menu">
+		<ul>
+			<li><a href="/process.php?file=Generics/index.nsp">Home</a></li>
+			<li><a href="/hello.php?name=Visitor">Hello</a></li>
+			<li><a href="/products.php?pro=url">Products</a></li>
+			<li><a href="/process.php?file=Generics/about.nsp">About</a></li>
+			<li><a href="/process.php?file=Generics/contact.nsp">Contact</a></li>
+			<li><a href="/auth/">Login</a></li>
+		</ul>
+	</div>
+	<!-- end #menu -->
+	<div id="header">
+
+	</div>
+	<!-- end #header -->	<div id="page">
+	<div id="page-bgtop">
+	<div id="page-bgbtm">
+		<div id="content">
+			<div class="post">
+								<h1 class="title"><a href="#">Admin Area</a></h1>
+					<p>
+                    

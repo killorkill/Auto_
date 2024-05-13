@@ -1,0 +1,24 @@
+HTTP/1.1 200 Partial Content
+Date: Tue, 16 Apr 2024 09:30:47 GMT
+Server: Apache/2.2.8 (Win32) PHP/5.2.6
+Last-Modified: Thu, 30 Jul 2020 08:09:20 GMT
+ETag: "1500000001b76f-26c-5aba4307c6c00"
+Accept-Ranges: bytes
+Content-Length: 620
+Content-Range: bytes 0-619/620
+Keep-Alive: timeout=5, max=91
+Connection: Keep-Alive
+Content-Type: text/plain
+
+<?php
+  session_start();
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=windows-1250">
+  </head>
+  <body>
+    Enter your credentials (username / password)
+    <br/>
+    <form method="POST" action="/control.php"

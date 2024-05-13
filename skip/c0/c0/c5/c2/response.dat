@@ -1,0 +1,13 @@
+HTTP/1.1 302 Found
+Date: Tue, 16 Apr 2024 09:29:33 GMT
+Server: Apache/2.2.8 (Win32) PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Location: login.php
+Content-Length: 0
+Keep-Alive: timeout=5, max=126
+Connection: Keep-Alive
+Content-Type: text/html
+

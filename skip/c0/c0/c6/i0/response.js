@@ -1,0 +1,1 @@
+var res = {'data':'HTTP/1.1 302 Found\x0aDate: Tue, 16 Apr 2024 09:30:49 GMT\x0aServer: Apache/2.2.8 (Win32) PHP/5.2.6\x0aX-Powered-By: PHP/5.2.6\x0aLocation: login.php\x0aContent-Length: 0\x0aKeep-Alive: timeout=5, max=93\x0aConnection: Keep-Alive\x0aContent-Type: text/html\x0a'}

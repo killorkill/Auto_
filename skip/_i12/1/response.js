@@ -1,0 +1,1 @@
+var res = {'data':'HTTP/1.1 200 OK\x0aDate: Tue, 16 Apr 2024 09:32:08 GMT\x0aServer: Apache/2.2.8 (Win32) PHP/5.2.6\x0aLast-Modified: Thu, 30 Jul 2020 08:09:20 GMT\x0aETag: \x221500000001b773-0-5aba4307c6c00\x22\x0aAccept-Ranges: bytes\x0aContent-Length: 0\x0aKeep-Alive: timeout=5, max=59\x0aConnection: Keep-Alive\x0aContent-Type: text/html\x0a'}

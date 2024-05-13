@@ -1,0 +1,284 @@
+=== Kết quả WhatWeb ===
+[1m[34mhttp://127.0.0.1[0m [302 Found] [1mApache[0m[[1m[32m2.4.56[0m][[1m[31mmod_perl/2.0.12[0m], [1mCountry[0m[[0m[22mRESERVED[0m][[1m[31mZZ[0m], [1mHTTPServer[0m[[1m[31mUnix[0m][[1m[36mApache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1[0m], [1mIP[0m[[0m[22m127.0.0.1[0m], [1mOpenSSL[0m[[1m[32m1.1.1t[0m], [1mPHP[0m[[1m[32m8.2.4[0m], [1mPerl[0m[[1m[32m5.34.1[0m], [1mRedirectLocation[0m[[0m[22mhttp://127.0.0.1/dashboard/[0m], [1mX-Powered-By[0m[[0m[22mPHP/8.2.4[0m]
+[1m[34mhttp://127.0.0.1/dashboard/[0m [200 OK] [1mApache[0m[[1m[32m2.4.56[0m][[1m[31mmod_perl/2.0.12[0m], [1mCountry[0m[[0m[22mRESERVED[0m][[1m[31mZZ[0m], [1mEmail[0m[[0m[22mfastly-logo@2x.png[0m], [1mHTML5[0m, [1mHTTPServer[0m[[1m[31mUnix[0m][[1m[36mApache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1[0m], [1mIP[0m[[0m[22m127.0.0.1[0m], [1mJQuery[0m[[1m[32m1.10.2[0m], [1mModernizr[0m, [1mOpenSSL[0m[[1m[32m1.1.1t[0m], [1mPHP[0m[[1m[32m8.2.4[0m], [1mPerl[0m[[1m[32m5.34.1[0m], [1mScript[0m[[0m[22mtext/javascript[0m], [1mTitle[0m[[1m[33mWelcome to XAMPP[0m]
+
+
+=== Kết quả Nmap ===
+Starting Nmap 7.92 ( https://nmap.org ) at 2024-05-13 14:46 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000097s latency).
+Not shown: 997 closed tcp ports (conn-refused)
+PORT     STATE SERVICE  VERSION
+80/tcp   open  http     Apache httpd 2.4.56 ((Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1)
+443/tcp  open  ssl/http Apache httpd 2.4.56 ((Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1)
+3306/tcp open  mysql    MySQL 5.5.5-10.4.28-MariaDB
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 12.57 seconds
+
+
+=== Kết quả chi tiết các cổng ===
+-Thông tin từ cổng 7 -
+Starting Nmap 7.92 ( https://nmap.org ) at 2024-05-13 14:47 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000087s latency).
+
+PORT  STATE  SERVICE VERSION
+7/tcp closed echo
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.43 seconds
+
+-Thông tin từ cổng 92 -
+Starting Nmap 7.92 ( https://nmap.org ) at 2024-05-13 14:47 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00010s latency).
+
+PORT   STATE  SERVICE VERSION
+92/tcp closed npp
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.47 seconds
+
+-Thông tin từ cổng 2024 -
+Starting Nmap 7.92 ( https://nmap.org ) at 2024-05-13 14:47 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000083s latency).
+
+PORT     STATE  SERVICE        VERSION
+2024/tcp closed xinuexpansion4
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.33 seconds
+
+-Thông tin từ cổng 05 -
+Starting Nmap 7.92 ( https://nmap.org ) at 2024-05-13 14:47 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000091s latency).
+
+PORT  STATE  SERVICE VERSION
+5/tcp closed rje
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.34 seconds
+
+-Thông tin từ cổng 13 -
+Starting Nmap 7.92 ( https://nmap.org ) at 2024-05-13 14:47 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000099s latency).
+
+PORT   STATE  SERVICE VERSION
+13/tcp closed daytime
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.43 seconds
+
+-Thông tin từ cổng 14 -
+Starting Nmap 7.92 ( https://nmap.org ) at 2024-05-13 14:47 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000088s latency).
+
+PORT   STATE  SERVICE VERSION
+14/tcp closed unknown
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.35 seconds
+
+-Thông tin từ cổng 47 -
+Starting Nmap 7.92 ( https://nmap.org ) at 2024-05-13 14:47 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00010s latency).
+
+PORT   STATE  SERVICE VERSION
+47/tcp closed ni-ftp
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.32 seconds
+
+-Thông tin từ cổng 127 -
+Starting Nmap 7.92 ( https://nmap.org ) at 2024-05-13 14:47 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000091s latency).
+
+PORT    STATE  SERVICE   VERSION
+127/tcp closed locus-con
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.45 seconds
+
+-Thông tin từ cổng 0 -
+Starting Nmap 7.92 ( https://nmap.org ) at 2024-05-13 14:47 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000094s latency).
+
+PORT  STATE  SERVICE VERSION
+0/tcp closed unknown
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.33 seconds
+
+-Thông tin từ cổng 0 -
+Starting Nmap 7.92 ( https://nmap.org ) at 2024-05-13 14:47 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000088s latency).
+
+PORT  STATE  SERVICE VERSION
+0/tcp closed unknown
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.31 seconds
+
+-Thông tin từ cổng 1 -
+Starting Nmap 7.92 ( https://nmap.org ) at 2024-05-13 14:47 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000088s latency).
+
+PORT  STATE  SERVICE VERSION
+1/tcp closed tcpmux
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.46 seconds
+
+-Thông tin từ cổng 0 -
+Starting Nmap 7.92 ( https://nmap.org ) at 2024-05-13 14:47 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000083s latency).
+
+PORT  STATE  SERVICE VERSION
+0/tcp closed unknown
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.34 seconds
+
+-Thông tin từ cổng 000072 -
+Starting Nmap 7.92 ( https://nmap.org ) at 2024-05-13 14:47 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000083s latency).
+
+PORT   STATE  SERVICE  VERSION
+72/tcp closed netrjs-2
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.33 seconds
+
+-Thông tin từ cổng 65532 -
+Starting Nmap 7.92 ( https://nmap.org ) at 2024-05-13 14:47 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000087s latency).
+
+PORT      STATE  SERVICE VERSION
+65532/tcp closed unknown
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.46 seconds
+
+-Thông tin từ cổng 80 -
+Starting Nmap 7.92 ( https://nmap.org ) at 2024-05-13 14:47 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000081s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.56 ((Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1)
+| http-title: Welcome to XAMPP
+|_Requested resource was http://localhost/dashboard/
+|_http-server-header: Apache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 6.41 seconds
+
+-Thông tin từ cổng 443 -
+Starting Nmap 7.92 ( https://nmap.org ) at 2024-05-13 14:47 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000096s latency).
+
+PORT    STATE SERVICE  VERSION
+443/tcp open  ssl/http Apache httpd 2.4.56 ((Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1)
+| http-title: Welcome to XAMPP
+|_Requested resource was https://localhost/dashboard/
+| ssl-cert: Subject: commonName=localhost/organizationName=Apache Friends/stateOrProvinceName=Berlin/countryName=DE
+| Not valid before: 2004-10-01T09:10:30
+|_Not valid after:  2010-09-30T09:10:30
+|_http-server-header: Apache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1
+| tls-alpn: 
+|_  http/1.1
+|_ssl-date: TLS randomness does not represent time
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 13.78 seconds
+
+-Thông tin từ cổng 3306 -
+Starting Nmap 7.92 ( https://nmap.org ) at 2024-05-13 14:47 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000095s latency).
+
+PORT     STATE SERVICE VERSION
+3306/tcp open  mysql   MySQL 5.5.5-10.4.28-MariaDB
+| mysql-info: 
+|   Protocol: 10
+|   Version: 5.5.5-10.4.28-MariaDB
+|   Thread ID: 62
+|   Capabilities flags: 63486
+|   Some Capabilities: ConnectWithDatabase, IgnoreSigpipes, Speaks41ProtocolNew, LongColumnFlag, ODBCClient, FoundRows, SupportsLoadDataLocal, Speaks41ProtocolOld, SupportsCompression, Support41Auth, DontAllowDatabaseTableColumn, IgnoreSpaceBeforeParenthesis, InteractiveClient, SupportsTransactions, SupportsMultipleStatments, SupportsMultipleResults, SupportsAuthPlugins
+|   Status: Autocommit
+|   Salt: }(Iv9X-x6B*KyAvRtth,
+|_  Auth Plugin Name: mysql_native_password
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.33 seconds
+
+-Thông tin từ cổng 1 -
+Starting Nmap 7.92 ( https://nmap.org ) at 2024-05-13 14:47 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000087s latency).
+
+PORT  STATE  SERVICE VERSION
+1/tcp closed tcpmux
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.37 seconds
+
+-Thông tin từ cổng 1 -
+Starting Nmap 7.92 ( https://nmap.org ) at 2024-05-13 14:47 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000086s latency).
+
+PORT  STATE  SERVICE VERSION
+1/tcp closed tcpmux
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.44 seconds
+
+-Thông tin từ cổng 2 -
+Starting Nmap 7.92 ( https://nmap.org ) at 2024-05-13 14:47 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000096s latency).
+
+PORT  STATE  SERVICE     VERSION
+2/tcp closed compressnet
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.32 seconds
+
+-Thông tin từ cổng 25 -
+Starting Nmap 7.92 ( https://nmap.org ) at 2024-05-13 14:47 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00014s latency).
+
+PORT   STATE  SERVICE VERSION
+25/tcp closed smtp
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.48 seconds
+
+
+
+=== Kết quả BuiltWith ===
+Công nghệ được sử dụng trên trang web http://127.0.0.1
+web-servers: Apache
+web-server-extensions: OpenSSL, mod_perl
+operating-systems: UNIX
+programming-languages: Perl
+font-scripts: Font Awesome
+javascript-frameworks: Modernizr, jQuery
+web-frameworks: ZURB Foundation
+

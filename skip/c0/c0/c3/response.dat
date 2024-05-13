@@ -1,0 +1,24 @@
+HTTP/1.1 200 Partial Content
+Date: Tue, 16 Apr 2024 09:30:52 GMT
+Server: Apache/2.2.8 (Win32) PHP/5.2.6
+Last-Modified: Thu, 30 Jul 2020 08:09:20 GMT
+ETag: "1500000001b776-100-5aba4307c6c00"
+Accept-Ranges: bytes
+Content-Length: 256
+Content-Range: bytes 0-255/256
+Keep-Alive: timeout=5, max=79
+Connection: Keep-Alive
+Content-Type: text/plain
+
+<?php
+  session_start();
+  $_REQUEST = array_merge($_COOKIE,$_GET,$_POST);
+  if(isset($_SESSION["loggedin"])){
+    if(isset($_REQUEST["search"]))
+    echo "You searched for: " . $_REQUEST["search"];
+  }
+  else{
+      header("Location: logout.php");
+  }
+?>
+

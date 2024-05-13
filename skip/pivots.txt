@@ -1,0 +1,53 @@
+GET http://107.20.213.223/ name=http://107.20.213.223/ type=serv linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=136 notes=8 sig=0x11e8de11
+GET http://107.20.213.223/auth/ name=auth type=dir linked=yes browsers=0 browser_used=FAST dup=0 code=302 len=0 notes=0 sig=0x1c0312d2
+GET http://107.20.213.223/auth/session/ name=session type=dir linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=0 notes=1 sig=0x1f8a7ca
+GET http://107.20.213.223/auth/session/index/ name=index type=dir linked=yes browsers=0 browser_used=FAST dup=0 returns_404 code=404 len=310 notes=0 sig=0x210d4231
+GET http://107.20.213.223/auth/session/index/index.html name=index.html type=unknown linked=yes browsers=0 browser_used=FAST dup=0 returns_404 code=404 len=320 notes=0 sig=0xffdfffff
+GET http://107.20.213.223/auth/session/index.html name=index.html type=file linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=0 notes=0 sig=0xfff7ffff
+GET http://107.20.213.223/auth/Login name=Login type=file linked=no browsers=0 browser_used=FAST dup=0 code=200 len=620 notes=3 sig=0xbc1a8339
+GET http://107.20.213.223/auth/style.css name=style.css type=file linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=8411 notes=1 sig=0xfff6d5cd
+GET http://107.20.213.223/auth/xss name=xss type=file linked=no browsers=0 browser_used=FAST dup=0 code=200 len=256 notes=3 sig=0xd6bfd33e
+GET http://107.20.213.223/auth/control name=control type=pathinfo linked=no browsers=0 browser_used=FAST dup=0 code=302 len=0 notes=1 sig=0xffefffff
+GET http://107.20.213.223/auth/control.php name=control.php type=pathinfo linked=yes browsers=0 browser_used=FAST dup=0 code=302 len=0 notes=0 sig=0xd559acab
+POST http://107.20.213.223/auth/control.php DATA:username=Smith&password=skipfish&token=510 name=password type=param linked=yes browsers=0 browser_used=FAST dup=0 code=302 len=0 notes=0 sig=0xffbfffff
+POST http://107.20.213.223/auth/control.php DATA:username=Smith&password=skipfish&token=510 name=token type=param linked=yes browsers=0 browser_used=FAST dup=0 code=302 len=0 notes=0 sig=0xffbfffff
+POST http://107.20.213.223/auth/control.php DATA:username=Smith&password=skipfish&token=510 name=username type=param linked=yes browsers=0 browser_used=FAST dup=0 code=302 len=0 notes=0 sig=0xffbfffff
+GET http://107.20.213.223/auth/index name=index type=pathinfo linked=no browsers=0 browser_used=FAST dup=1 code=302 len=0 notes=1 sig=0xffefffff
+GET http://107.20.213.223/auth/index.php name=index.php type=pathinfo linked=yes browsers=0 browser_used=FAST dup=1 code=302 len=0 notes=0 sig=0xffefffff
+GET http://107.20.213.223/auth/login.php name=login.php type=pathinfo linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=3057 notes=2 sig=0xffeddaa0
+GET http://107.20.213.223/auth/logout name=logout type=pathinfo linked=no browsers=0 browser_used=FAST dup=0 code=302 len=49 notes=3 sig=0xd6a7d338
+GET http://107.20.213.223/auth/logout.php name=logout.php type=pathinfo linked=yes browsers=0 browser_used=FAST dup=1 code=302 len=49 notes=2 sig=0xd6a7d338
+GET http://107.20.213.223/auth/xss.php name=xss.php type=pathinfo linked=yes browsers=0 browser_used=FAST dup=0 code=302 len=1131 notes=0 sig=0xffefffff
+GET http://107.20.213.223/hello.php name=hello.php type=file linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=2849 notes=1 sig=0xc54fbcd0
+GET http://107.20.213.223/hello.php?hpp=Netsparker&[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27sfish\x27]\x27]\x27]\x27]\x27]\x27]\x27]\x27]\x27]\x27]=%20DAST&irc= name=[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27sfish\x27]\x27]\x27]\x27]\x27]\x27]\x27]\x27]\x27]\x27] type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=3142 notes=2 sig=0x635a2cb0
+GET http://107.20.213.223/hello.php?hpp=Netsparker&[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27sfish\x27]\x27]\x27]\x27]\x27]\x27]\x27]\x27]\x27]=%20DAST&irc= name=[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27sfish\x27]\x27]\x27]\x27]\x27]\x27]\x27]\x27]\x27] type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=3142 notes=3 sig=0x702137ad
+GET http://107.20.213.223/hello.php?hpp=Netsparker&[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27sfish\x27]\x27]\x27]\x27]\x27]\x27]\x27]\x27]=%20DAST&irc= name=[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27sfish\x27]\x27]\x27]\x27]\x27]\x27]\x27]\x27] type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=3142 notes=1 sig=0xffbe8877
+GET http://107.20.213.223/hello.php?hpp=Netsparker&[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27sfish\x27]\x27]\x27]\x27]\x27]\x27]\x27]=%20DAST&irc= name=[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27sfish\x27]\x27]\x27]\x27]\x27]\x27]\x27] type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=3142 notes=1 sig=0xffbe8877
+GET http://107.20.213.223/hello.php?hpp=Netsparker&[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27sfish\x27]\x27]\x27]\x27]\x27]\x27]=%20DAST&irc= name=[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27sfish\x27]\x27]\x27]\x27]\x27]\x27] type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=3142 notes=2 sig=0xc67366e2
+GET http://107.20.213.223/hello.php?hpp=Netsparker&[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27sfish\x27]\x27]\x27]\x27]\x27]=%20DAST&irc= name=[0][\x27[0][\x27[0][\x27[0][\x27[0][\x27sfish\x27]\x27]\x27]\x27]\x27] type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=3142 notes=2 sig=0x4a107e24
+GET http://107.20.213.223/hello.php?hpp=Netsparker&[0][\x27[0][\x27[0][\x27[0][\x27sfish\x27]\x27]\x27]\x27]=%20DAST&irc= name=[0][\x27[0][\x27[0][\x27[0][\x27sfish\x27]\x27]\x27]\x27] type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=3142 notes=3 sig=0xe77b1ee1
+GET http://107.20.213.223/hello.php?hpp=Netsparker&[0][\x27[0][\x27[0][\x27sfish\x27]\x27]\x27]=%20DAST&irc= name=[0][\x27[0][\x27[0][\x27sfish\x27]\x27]\x27] type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=3142 notes=2 sig=0x4a107e24
+GET http://107.20.213.223/hello.php?hpp=Netsparker&[0][\x27[0][\x27pp\x27]\x27]=%20DAST&irc= name=[0][\x27[0][\x27pp\x27]\x27] type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=3142 notes=2 sig=0x7b9c1d3c
+GET http://107.20.213.223/hello.php?hpp=Netsparker&[0][\x27[0][\x27sfish\x27]\x27]=%20DAST&irc= name=[0][\x27[0][\x27sfish\x27]\x27] type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=3142 notes=2 sig=0x4a107e24
+GET http://107.20.213.223/hello.php?hpp=Netsparker&[0][\x27pp\x27]=%20DAST&irc= name=[0][\x27pp\x27] type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=3142 notes=2 sig=0x4a107e24
+GET http://107.20.213.223/hello.php?hpp=Netsparker&[0][\x27sfish\x27]=%20DAST&irc= name=[0][\x27sfish\x27] type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=3142 notes=2 sig=0x4a107e24
+GET http://107.20.213.223/hello.php?aaaa/=Invicti%21 name=aaaa/ type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=2849 notes=1 sig=0xbdae355a
+GET http://107.20.213.223/hello.php?hpp=Netsparker&pp=%20DAST&irc= name=hpp type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=3147 notes=2 sig=0x4a107e24
+GET http://107.20.213.223/hello.php?hpp=Netsparker&pp=%20DAST&irc= name=irc type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=3147 notes=2 sig=0x7b9c1d3c
+GET http://107.20.213.223/hello.php?name=Visitor name=name type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=2989 notes=2 sig=0xb5eecd2f
+GET http://107.20.213.223/hello.php?hpp=Netsparker&pp=%20DAST&irc= name=pp type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=3147 notes=2 sig=0x4a107e24
+GET http://107.20.213.223/process.php name=process.php type=file linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=1380 notes=1 sig=0xfe0a313a
+GET http://107.20.213.223/process.php?file=Generics/index.nsp name=file type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=3073 notes=2 sig=0x7b9c1d3c
+GET http://107.20.213.223/products.php name=products.php type=file linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=2934 notes=2 sig=0xdef857ac
+GET http://107.20.213.223/products.php?pp=%20DAST name=pp type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=3256 notes=2 sig=0x635a2cb0
+GET http://107.20.213.223/products.php?pro=url name=pro type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=2937 notes=1 sig=0xa56804d6
+GET http://107.20.213.223/style.css name=style.css type=file linked=yes browsers=0 browser_used=FAST dup=1 code=200 len=8916 notes=1 sig=0xfff6d5cd
+GET http://107.20.213.223/artist.php name=artist.php type=unknown linked=yes browsers=0 browser_used=FAST dup=0 code=0 len=0 notes=1 sig=0x71bd297e
+GET http://107.20.213.223/artist.php?id=1 name=id type=param linked=yes browsers=0 browser_used=FAST dup=0 code=0 len=0 notes=1 sig=0xdeb6f368
+GET http://107.20.213.223/artist.php?s=1 name=s type=param linked=yes browsers=0 browser_used=FAST dup=0 code=0 len=0 notes=1 sig=0xdeb6f368
+GET http://107.20.213.223/control.php name=control.php type=unknown linked=yes browsers=0 browser_used=FAST dup=0 returns_404 code=404 len=297 notes=0 sig=0xd568acab
+POST http://107.20.213.223/control.php DATA:username=Smith&password=skipfish&token=\x3c%3Fphp%20echo%20rand()%3B%3F name=password type=param linked=yes browsers=0 browser_used=FAST dup=0 returns_404 code=404 len=297 notes=0 sig=0xffbfffff
+POST http://107.20.213.223/control.php DATA:username=Smith&password=skipfish&token=\x3c%3Fphp%20echo%20rand()%3B%3F name=token type=param linked=yes browsers=0 browser_used=FAST dup=0 returns_404 code=404 len=297 notes=1 sig=0xffbe3be7
+POST http://107.20.213.223/control.php DATA:username=Smith&password=skipfish&token=\x3c%3Fphp%20echo%20rand()%3B%3F name=username type=param linked=yes browsers=0 browser_used=FAST dup=0 returns_404 code=404 len=297 notes=0 sig=0xffbfffff
+GET http://107.20.213.223/nslookup.php name=nslookup.php type=unknown linked=yes browsers=0 browser_used=FAST dup=0 code=0 len=0 notes=1 sig=0x6a841831
+GET http://107.20.213.223/phpinfo.php name=phpinfo.php type=unknown linked=yes browsers=0 browser_used=FAST dup=1 code=0 len=0 notes=1 sig=0x6a841831

