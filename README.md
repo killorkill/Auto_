@@ -20,4 +20,5 @@ Sau đó nhập câu lệnh sau để cài đặt các gói về
 Để chạy chương trình chả cần gõ câu lệnh:
 
 python3 auto.py
+
 ![image](https://github.com/killorkill/Auto_/assets/83548177/85ee7c0f-2ed1-4c99-ad2d-938857ef157d)
