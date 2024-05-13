@@ -1,7 +1,7 @@
 # Auto_Tools
 # Cách cài đặt
 
-Đầu tiên tải ZAP nếu chưa có ở đây chúng tôi có sẵ phiên biển ZAP cho các bạn
+Đầu tiên tải ZAP nếu chưa có. Ở đây chúng tôi đã có sẵn phiên biển ZAP cho các bạn
 
 Sau đó nhập câu lệnh:
 
