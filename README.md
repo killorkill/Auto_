@@ -8,12 +8,12 @@ Sau đó nhập câu lệnh:
    ```bash
   sudo apt update
   sudo apt install default-jdk
-
+  ```
 Di chuyển đến thu mục chưa ZAP và nhập câu lệnh để giải nén
 
    ```bash
   tar -xvf ZAP_2.10.0_Linux.tar.gz
-
+  ```
 Sau đó nhập câu lệnh sau để cài đặt các gói về
   
   ```bash
