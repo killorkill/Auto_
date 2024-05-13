@@ -22,3 +22,6 @@ Sau đó nhập câu lệnh sau để cài đặt các gói về
 python3 auto.py
 
 ![image](https://github.com/killorkill/Auto_/assets/83548177/85ee7c0f-2ed1-4c99-ad2d-938857ef157d)
+
+```bash
+pip install -r requirements.txt
