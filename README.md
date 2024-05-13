@@ -1,5 +1,5 @@
 # Auto_Tools
-Là một phần mềm kiểm thử bán tự động với 7 chức năng
+Là một phần mềm kiểm thử bán tự động với 7 chức năng:
 1. Thu thập thông tin
 2. Quét dịch vụ
 3. Mirroring
