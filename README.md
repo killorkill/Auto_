@@ -17,3 +17,6 @@ Sau đó nhập câu lệnh sau để cài đặt các gói về
   
   pip install -r requirements.txt
 
+Để chạy chương trình chả cần gõ câu lệnh:
+
+python3 auto.py
