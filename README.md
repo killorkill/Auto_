@@ -1,4 +1,12 @@
 # Auto_Tools
+Là một phần mềm kiểm thử bán tự động với 7 chức năng
+1. Thu thập thông tin
+2. Quét dịch vụ
+3. Mirroring
+4. Quét lỗ hổng
+5. Tấn công SQL
+6. Crack mật khẩu
+7. Session Hijacking
 # Cách cài đặt
 
 Đầu tiên tải ZAP nếu chưa có. Ở đây chúng tôi đã có sẵn phiên biển ZAP cho các bạn
